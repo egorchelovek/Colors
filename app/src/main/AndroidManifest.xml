@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.joyfulmagic.colors">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@android:style/Theme.NoTitleBar.Fullscreen">
+
+        <activity android:name=".activities.SplashActivity"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+
+
+        <activity android:name=".activities.CameraActivity.CameraActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+        <activity android:name=".activities.CameraActivity.Camera2Activity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.HarmonyActivty.HarmonyActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.ColorEncyclopedy.ColorEncyclopediaActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.SkillTreeActivity.SkillTreeActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.TrainingActivity.TrainingActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.UserActivity.UserActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.SettingsActivity.SettingsActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+
+
+        <activity android:name=".activities.AppInfoActivity"
+            android:screenOrientation="portrait">
+        </activity>
+
+    </application>
+
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+</manifest>

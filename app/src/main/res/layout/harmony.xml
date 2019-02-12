@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/colorFragmentImage"/>
+
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:id="@+id/harmonyLayContainer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        </LinearLayout>
+
+        <TextView
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:id="@+id/nearestColorText"
+            android:background="@color/transparent_black50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:background="@color/transparent_black50"
+            android:layout_gravity="bottom"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:text="@string/correct"
+                android:id="@+id/buttonCorrect"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <Button
+                android:text="@string/harmony"
+                android:id="@+id/buttonHarmony"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <!--<Button-->
+                <!--android:text="@string/setup"-->
+                <!--android:id="@+id/buttonSetup"-->
+                <!--android:layout_weight="1"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content" />-->
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

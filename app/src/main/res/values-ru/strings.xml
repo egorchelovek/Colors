@@ -1,0 +1,146 @@
+<resources>
+    <string name="app_name">Цвета </string>
+
+    <!-- sections -->
+    <string name="activity_encyclopedia">Энциклопедия цвета </string>
+    <string name="activity_skill_tree">Развитие чувства </string>
+    <string name="activity_training">Упражениния </string>
+    <string name="activity_progress">Мои успехи </string>
+    <string name="activity_settings">Настройки </string>
+    <string name="activity_app_info">О приложении </string>
+    <string name="activity_thank">Сказать спасибо </string>
+    <string name="activity_camera">Поиск цвета</string>
+    <string name="activity_harmony">Гармония </string>
+
+    <!-- fragments -->
+    <string name="fragment_color_info">Информация о цвете </string>
+    <string name="fragment_four_colors">Выбери цвет </string>
+    <string name="fragment_four_names">Угадай название цвета </string>
+    <string name="fragment_learn_harmony">Выбери гармонически сочитающиеся цвета </string>
+    <string name="fragment_train_parameter">Установи правильные значения </string>
+
+
+    <!-- views -->
+    <string name="view_language">Язык названий цветов </string>
+    <string name="view_color_picker">Тон-Насыщенность-Светлота </string>
+    <string name="view_harmony">Варианты гармонии </string>
+
+    <!-- messages -->
+    <string-array name="messages_right_answer">
+        <item>Сделано! </item>
+        <item>Ты прав! </item>
+        <item>Так держать! </item>
+        <item>Хорошо! </item>
+    </string-array>
+
+    <string-array name="messages_wrong_answer">
+        <item>Будь внимательней! </item>
+        <item>Попробуй сделать это позже! </item>
+        <item>Расслабься! </item>
+    </string-array>
+
+    <string name="message_tap_color">Прикаснись к этому счастливому маленькому цвету </string>
+    <string name="message_choose_train">Выбери тип упражнений </string>
+    <string name="message_progress_lost">Прогресс будет утерян, ты уверен? </string>
+    <string name="message_change_language">Установлен язык названий цветов </string>
+    <string name="message_after_reload">Изменения вступят в силу после перезагрузки приложения </string>
+    <string name="message_bye_bye">Пока-пока! </string>
+
+
+    <!-- arrays -->
+    <!-- languages -->
+    <string-array name="languages">
+        <item>English </item>
+        <item>Русский </item>
+        <!--<item>中文 </item>-->
+    </string-array>
+
+
+    <!-- trains -->
+    <string-array name="trains">
+        <item>Все </item>
+        <item>Цвет </item>
+        <item>Пространство </item>
+        <item>Гармония </item>
+    </string-array>
+
+    <!-- colors -->
+    <string-array name="colors">
+        <item>Все </item>
+        <item>Красный </item>
+        <item>Жёлтый </item>
+        <item>Зелёный </item>
+        <item>Голубой </item>
+        <item>Синий </item>
+        <item>Пурпурный </item>
+    </string-array>
+
+    <!-- parameters -->
+    <string-array name="parameters">
+        <item>Все </item>
+        <item>Тон </item>
+        <item>Насыщенность </item>
+        <item>Светлота </item>
+        <item>Тон \n и \n Насыщенность </item>
+        <item>Тон \n и \n Светлота </item>
+        <item>Насыщенность \n и \n Светлота </item>
+    </string-array>
+    <string name="parameter_hue">Тон </string>
+    <string name="parameter_saturation">Насыщенность </string>
+    <string name="parameter_lightness">Светлота </string>
+
+    <!-- harmonies -->
+    <string-array name="harmonies">
+        <item>Все </item>
+        <item>Дополнительная </item>
+        <item>Подобная </item>
+        <item>Треугольная </item>
+        <item>Подобно-дополнительная </item>
+        <item>Четырёхугольная </item>
+        <item>Квадратная </item>
+    </string-array>
+
+    <!-- skills -->
+    <string-array name="skills">
+        <item>Color </item>
+        <item>Hue </item>
+        <item>Saturation </item>
+        <item>Lightness </item>
+        <item>Complementary </item>
+        <item>Analogous </item>
+        <item>Triad </item>
+        <item>Split-Complementary </item>
+        <item>Tetradic </item>
+        <item>Square </item>
+    </string-array>
+
+    <string name="user_name">человек </string>
+
+
+    <!-- buttons -->
+    <string name="ok">Хорошо </string>
+    <string name="fix">Зафиксировать </string>
+    <string name="choose">Выбрать </string>
+    <string name="unfix">Сбросить </string>
+    <string name="correct">Коррекция </string>
+    <string name="harmony">Гармония </string>
+    <string name="harmony_type">Вид гармонии </string>
+    <string name="variant">Вариант </string>
+    <string name="nearest_color">Ближайший цвет </string>
+    <string name="setup">Установ </string>
+    <string name="unknown">Неведомо </string>
+    <string name="rainbow">Семицветная </string>
+    <string name="cancel">Отмена</string>
+    <string name="quit">Выход </string>
+
+    <string name="app_info">
+        Это приложение предназначено для подбора гармоничных сочетаний цветов
+        и развития чувства цвета. Наслаждайтесь гармонией цветовых сочетаний,
+        развивайте чувство прекрасного! Красота спасёт мир! </string>
+    <string name="link_creator_page"> Создатель прил. </string>
+    <string name="app_creator">Егор Замотаев </string>
+    <string name="my_page_id">100003098094447</string>
+    <string name="thanks">Выражаю благодарность моей маме Свете за большую любовь, терпение и поддержку. Так же я благодарю мою любимую девушку Полину, в честь которой я посвящаю сей труд. </string>
+    <string name="take_picture" >Снять изображение</string>
+
+</resources>

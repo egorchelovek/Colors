@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/itemActivityCamera"
+        android:title="@string/activity_camera"
+        android:icon="@android:drawable/ic_menu_camera"
+        android:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/itemActivityEncyclopedia"
+        android:icon="@android:drawable/ic_menu_gallery"
+        android:title="@string/activity_encyclopedia"
+        android:showAsAction="always">
+    </item>
+
+    <item
+        android:id="@+id/itemActivitySkillTree"
+        android:icon="@android:drawable/ic_menu_view"
+        android:title="@string/activity_skill_tree">
+    </item>
+
+    <!--<item-->
+        <!--android:id="@+id/itemActivityProgress"-->
+        <!--android:title="@string/activity_progress">-->
+    <!--</item>-->
+
+    <item
+        android:id="@+id/itemActivitySettings"
+        android:title="@string/activity_settings">
+    </item>
+
+    <item
+        android:id="@+id/itemActivityAppInfo"
+        android:title="@string/activity_app_info">
+    </item>
+
+    <!--<item-->
+        <!--android:id="@+id/itemActivityThank"-->
+        <!--android:title="@string/activity_thank">-->
+    <!--</item>-->
+</menu>

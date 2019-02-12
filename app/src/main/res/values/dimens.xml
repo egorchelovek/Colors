@@ -1,0 +1,11 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="standart_margin"> 16dp </dimen>
+
+    <dimen name="color_field_encyclopedy_info_main"> 256dp </dimen>
+    <dimen name="color_field_encylopedy_info_other">128dp</dimen>
+    <dimen name="color_field_encylopedy_list">64dp</dimen>
+    <dimen name="color_field_color_set">128dp</dimen>
+</resources>

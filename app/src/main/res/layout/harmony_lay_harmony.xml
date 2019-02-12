@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@+id/harmonyPanelFull"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <Button
+        android:layout_gravity="left|center_vertical"
+        android:id="@+id/harmonyBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_gravity="right|center_vertical"
+        android:id="@+id/harmonyForward"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <RelativeLayout
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:id="@+id/harmonyPanelContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </RelativeLayout>
+
+</FrameLayout>

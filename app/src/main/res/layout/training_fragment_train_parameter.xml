@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fragment_train_parameter"
+        android:id="@+id/textColorTrain"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_vertical"
+        android:layout_marginBottom="@dimen/standart_margin"
+        android:layout_marginTop = "@dimen/standart_margin"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center">
+
+            <ImageView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageColorTrain"
+                android:layout_marginBottom="16dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageColorTrainChoosed"
+                android:layout_marginBottom="@dimen/standart_margin"/>
+
+    </LinearLayout>
+
+
+    <com.joyfulmagic.colors.views.DrawersColorPicker.ColorScrollBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colBarHueTrain"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal"/>
+
+    <com.joyfulmagic.colors.views.DrawersColorPicker.ColorScrollBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colBarSatTrain"/>
+
+    <com.joyfulmagic.colors.views.DrawersColorPicker.ColorScrollBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/colBarLightTrain" />
+
+</LinearLayout>
